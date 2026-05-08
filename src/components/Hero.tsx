@@ -131,7 +131,7 @@ export default function Hero() {
 
               <div className="relative w-64 h-64 sm:w-80 sm:h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden border-2 border-parchment shadow-2xl">
                 <Image
-                  src="/headshot.jpg"
+                  src={`${process.env.NEXT_PUBLIC_BASE_PATH || ""}/headshot.jpg`}
                   alt="Gabriela Chirinos"
                   fill
                   className="object-cover object-top"
