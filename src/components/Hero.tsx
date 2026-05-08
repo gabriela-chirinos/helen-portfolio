@@ -87,9 +87,9 @@ export default function Hero() {
               className="font-epilogue font-black text-slate-navy leading-none tracking-tightest opacity-0 mb-6"
               style={{ fontSize: 'clamp(38px, 5.5vw, 80px)' }}
             >
-              Specialized in{' '}
-              <span className="playfair-italic text-burnt-blush">Operational Excellence</span>{' '}
-              & Scalable Architecture
+              I troubleshoot the{' '}
+              <span className="playfair-italic text-burnt-blush">messy middle</span>{' '}
+              between systems, data, and users.
             </h1>
 
             {/* Subline */}
